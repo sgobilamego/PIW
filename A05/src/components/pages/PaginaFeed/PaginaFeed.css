@@ -1,0 +1,96 @@
+.pagina{
+    background-color: #6B9AC4;
+    height:calc(100vh - 40px);
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+}
+
+.lista-posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cddce9;
+}
+
+.cardpost {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: #EFF2F1;
+    width: 650px;
+    height: 150px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardpost .usuario-cardpost{
+    font-size: 16px;
+    padding: 5px 25px;
+    font-weight: bold;
+    
+}
+
+.cardpost .texto-cardpost{
+    padding: 5px 25px;
+}
+
+.cardpost .likes-cardpost{
+    padding: 5px 20px;
+    font-size: 14px;
+    font-style: oblique;
+    margin-left: auto;
+}
+
+.cardpost .curtir-cardpost{
+    width: 80px;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin-right: 20px;
+    margin-left: auto;
+    border: none;
+    border-radius: 4px;
+    background-color: #6B9AC4;
+    color: #EFF2F1;
+    font-size: 14px;
+}
+
+.cardcoment {
+    margin-right: 20px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: #EFF2F1;
+    color:rgb(7, 7, 7);
+    width: 620px;
+    height: 80px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardcoment .usuario-cardcoment{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
+    
+}
+
+.cardcoment .texto-cardcoment{
+    padding: 5px 25px;
+}
+
+.titulo{
+    width: 700px;
+    height: 20px;
+    border: none;
+    background-color: #bdcedb;
+    color: #cddce9;
+    font-size: 14px;
+    padding: 8px 8px 8px 27px;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+}

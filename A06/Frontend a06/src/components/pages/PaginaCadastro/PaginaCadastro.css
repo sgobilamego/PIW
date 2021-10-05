@@ -1,0 +1,77 @@
+.pagina{
+    background-color: #6B9AC4;
+}
+
+.container{
+    width: 700px;
+    background-color: #cddce9;
+    height:calc(100vh - 40px);
+}
+
+.cardcadastro {
+    margin: 80px 20px 20px 180px;
+    border-radius: 8px;
+    background-color: #EFF2F1;
+    width: 350px;
+    height: 170px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardcampo {
+    margin-left: 14px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #fdfdfd;
+    width: 300px;
+    height: 20px;
+    font-size: 14px;
+    font-style: oblique;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.botaologin{
+    margin-left: 185px;
+    position: relative;
+    height: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #6B9AC4;
+    color: #EFF2F1;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.botaocadastro{
+    margin: 0px 0px 0px 8px; 
+    position: relative;
+    height: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #6B9AC4;
+    color: #EFF2F1;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.botaoenviarcadastro{
+    margin-top: 30px;
+    height: 35px;
+    width: 80px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #6B9AC4;
+    color: #EFF2F1;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}

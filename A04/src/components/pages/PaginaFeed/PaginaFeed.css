@@ -1,0 +1,99 @@
+.pagina{
+    background-color: #6B9AC4;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+}
+
+.nav {
+    height: 40px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #4059AD;
+}
+
+.nav .user-logado {
+    margin-left: 4px;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#EFF2F1;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav .botao{
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #6B9AC4;
+    color: #EFF2F1;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.nav .botao-press{
+    margin-left: auto;
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EFF2F1;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.lista-posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cddce9;
+
+}
+
+.card {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: #EFF2F1;
+    width: 650px;
+    height: 150px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card .usuario-card{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 20px;
+    
+}
+
+.card .texto-card{
+    padding: 5px 20px;
+}
+
+.card .likes-card{
+    padding: 5px 20px;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+.card .curtir-card{
+    width: 80px;
+    cursor: pointer;
+    padding: 5px 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6B9AC4;
+    color: #EFF2F1;
+    font-size: 14px;
+}
